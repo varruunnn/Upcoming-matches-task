@@ -5,12 +5,12 @@ import { competitions } from './constants/competitions';
 import { teams }        from './constants/teams';
 import { getApiEndpoints } from './constants/apiEndpoints';
 
-import useFetchData      from './hooks/useFetchData';
-import ApiNavCard        from './components/ApiNavCard';
-import Controls          from './components/Controls';
-import MatchCard         from './components/MatchCard';
-import StandingRow       from './components/StandingRow';
-import ScorerRow         from './components/ScorerRow';
+import useFetchData from './hooks/useFetchData';
+import ApiNavCard from './components/ApiNavCard';
+import Controls from './components/Controls';
+import MatchCard from './components/MatchCard';
+import StandingRow from './components/StandingRow';
+import ScorerRow from './components/ScorerRow';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('matches');

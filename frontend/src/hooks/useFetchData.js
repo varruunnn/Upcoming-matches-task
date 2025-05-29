@@ -11,7 +11,7 @@ export default function useFetchData() {
     setData([]);
 
     try {
-      const baseUrl = 'http://localhost:3001/api';
+      const baseUrl = 'https://upcoming-matches-task.onrender.com/api';
       let url = baseUrl;
 
       if (endpoint.startsWith('/matches')) {
